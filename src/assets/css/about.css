@@ -1,0 +1,77 @@
+@import url('style.css');
+@import url('media.css');
+.about-section .container {
+    width: 85%;
+}
+
+
+.team-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 2rem 0;
+}
+
+.team-section .container {
+    width: 90%;
+}
+
+.profile {
+    margin: 15px;
+    position: relative;
+    border-radius: 2px;
+}
+
+.profile img {
+    width: 300px;
+    height: 400px;
+}
+
+.profile-details {
+    position: absolute;
+    bottom: 4px;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 4));
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+    align-items: center;
+    justify-content: flex-end;
+    padding-bottom: 20px;
+}
+
+.team-content h3 {
+    color: #f8b864;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 0;
+}
+
+.work {
+    color: #d6cece;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0;
+}
+
+.supp-card {
+    height: 130px;
+    width: 210px;
+    background: white;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin: 10px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    transition: all 0.2s ease;
+}
+
+.supp-card:hover {
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
+.supp-card h3 {
+    color: #454545;
+}
