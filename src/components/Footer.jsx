@@ -31,7 +31,7 @@ export default function Footer() {
             <div>
                 <div className="window">
                     <div className="upper">
-                        <h2>Our Animal Shelter "Sharnam" is Now Open !</h2>
+                        <h2>Join the Mission and Create A Impact! </h2>
                     </div>
                     <div className="btn-container">
 

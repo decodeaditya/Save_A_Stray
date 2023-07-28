@@ -1,4 +1,5 @@
 import { useState } from "react"
+import hero from '../../assets/images/gallery-11.webp'
 import Ankush from './AboutImages/Ankush.jpg'
 import Ds from './AboutImages/Dheeraj Sharma.jpeg'
 import Ps from './AboutImages/Pankaj Sharma.jpeg'
@@ -6,7 +7,6 @@ import Ms from './AboutImages/Monty Sharma.jpg'
 import Ks from './AboutImages/Keshav Sharma.jpeg'
 import Ad from './AboutImages/Aditya Kumar.jpg'
 import Vidit from './AboutImages/founderimage.jpeg'
-import about from './AboutImages/mainabout.jpg'
 import { Helmet } from "react-helmet"
 import '../../assets/css/about.css'
 
@@ -69,9 +69,10 @@ export default function Aboutpage() {
                 <div className="container">
                     <div className="about-content">
                         <div className="about-image">
-                            <img src={about} alt="main-about" loading="lazy" />
+                            <img src={hero} alt="main-about" loading="lazy" />
                         </div>
-                        <div className="about-text">
+                        <div className="about-text" style={{ fontSize: "16px",color:"#616161" }}>
+                            <p style={{ fontSize: 25, marginBottom: "0.9rem", color: "#000" }}>"A journey of a thousand miles begins with a single step"</p>
                             The eerie silence of the sudden lockdown in March 2020, amplified the
                             cries of hungry stray dogs on the streets of Noida. Our furry friends
                             had no idea where the few friendly humans had vanished, and man's best
@@ -81,9 +82,6 @@ export default function Aboutpage() {
                             these voiceless furries, We decided it was time to put our strong
                             resolve and limited resources to use.
                             <br />
-                            Turning adversity into an opportunity to do some good saw the
-                            inception of ‘Save A Stray’ on 22nd March 2020, with the sole aim of
-                            feeding our furry street friends
                         </div>
                     </div>
                     {!Open && <div className="btn-container">
@@ -92,7 +90,7 @@ export default function Aboutpage() {
                     {Open &&
                         <>
                             <div className="about-content">
-                                <div className="about-text">
+                                <div className="about-text" style={{ fontSize: "16px",color:"#616161" }}>
                                     What began as a modest initiative in 2020 with just 35 dogs under our
                                     wings, has increased exponentially during the lockdown as we
                                     discovered various parts of Noida where animals were starving. Today,
@@ -100,9 +98,12 @@ export default function Aboutpage() {
                                     we are proud to be able to cater to well over 3500 dogs daily across
                                     Noida and neighbouring parts of Delhi, for which we cook approximately
                                     1 Lakh meals a month!
+                                    Turning adversity into an opportunity to do some good saw the
+                                    inception of ‘Save A Stray’ on
                                 </div>
-                                <div className="about-text">
-
+                                <div className="about-text" style={{ fontSize: "16px",color:"#616161" }}>
+                                    22nd March 2020, with the sole aim of
+                                    feeding our furry street friends.<br/>
                                     We have a dedicated and compassionate crew of 8 who help in ensuring
                                     that come hail or shine, or even the harshest cold, the little bellies
                                     of our canine kids are filled everyday! This food is delivered to
@@ -126,7 +127,8 @@ export default function Aboutpage() {
                 </div>
                 <div className="container">
                     <div className="about-content">
-                        <div className="about-text">
+                        <div className="about-text" style={{ color: "#616161", fontSize: "16px" }}>
+                            <p style={{ fontSize: 25, marginBottom: "0.9rem", color: "#000" }}>The Life Lived for Others is the one that is Happiest!</p>
                             Vidit Sharma is the founder of Save a Stray Animal welfare centre.
                             It's due to his able guidance, dedication, and commitment, Save a
                             stray has been able to feed more than 3000 animals daily and treating
@@ -189,7 +191,7 @@ export default function Aboutpage() {
                         </div>
                         <div className="supp-card">
 
-                            <h3>Mr. Shetty</h3>
+                            <h3>Mrs. Mamta Nigam</h3>
                         </div>
                         <div className="supp-card">
 

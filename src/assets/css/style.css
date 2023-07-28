@@ -25,7 +25,6 @@ header{
 
 nav .logo img {
     width: 112px;
-    margin-left: 20px;
 }
 
 nav .logo {
@@ -33,6 +32,7 @@ nav .logo {
     align-items: center;
     height: 90px;
 }
+
 
 .navlinks {
     display: -webkit-box;
@@ -79,6 +79,22 @@ nav .logo {
 
 #active {
     color: #d99c00;
+}
+
+.payment-box{
+    margin-left: 2rem;
+}
+
+.donatePageImg{
+    height: 450px;
+}
+
+.moboPayImg{
+    display: none;
+}
+
+.pcPayImg{
+    display: block;
 }
 
 .popup {
@@ -137,7 +153,7 @@ nav .logo {
 }
 
 .hero-section {
-    background: url(../images/hero-image.jpg);
+    background: url(../images//hero-image.jpg);
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: center center;
@@ -152,9 +168,8 @@ nav .logo {
 
 h1 {
     font-size: 50px;
-    line-height: 1;
+    line-height: 1.2;
     margin: 0 0 10px;
-    letter-spacing: -0.02em;
     font-weight: bold;
 }
 
@@ -229,6 +244,7 @@ hr {
 
 .about-text {
     line-height: 2;
+    font-size: 17px;
 }
 
 .btn-container {
@@ -256,11 +272,40 @@ hr {
 }
 
 .odds {
-    background: #f2f2f2;
+    background: url(../images/odds-bg.jpg);
+}
+
+.features{
+    flex-wrap: wrap;
 }
 
 .gallery-content {
     padding: 2rem 0;
+}
+
+.features-box{
+    padding: 10px;
+    display: flex;
+    width: 50%;
+    margin-bottom: 10px;
+}
+
+.features-box img{
+    height: 71px;
+    width: 100px;
+    margin-right: 1rem;
+}
+
+.features-box:nth-child(2) img
+{
+    margin-right: 2rem;
+}
+.features-box h3{
+    margin-bottom: 10px;
+}
+
+.features-box p{
+    line-height: 1.6;
 }
 
 .gallery-row {
@@ -275,7 +320,7 @@ hr {
     -ms-flex: 25%;
     flex: 25%;
     max-width: 25%;
-    padding: 0 4px;
+    padding: 0 5px;
 }
 
 .gallery-column img {
@@ -289,7 +334,8 @@ hr {
     width: 100%;
     vertical-align: middle;
     overflow: hidden;
-    margin-top: 8px;
+    margin-top: 10px;
+    border-radius: 10px;
 }
 
 .gallery-column img:hover {
@@ -298,19 +344,23 @@ hr {
 
 .adopt-content {
     display: flex;
-    padding: 2rem 0;
+    margin-bottom: 2rem;
     justify-content: center;
     flex-wrap: wrap;
 }
 
-.adopt-section .container {
+.adoppro-section .container {
     width: 100%;
 }
 
 .adopt-card {
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    margin: 10px;
+    margin: 15px;
     transition: all 0.4s ease;
+    border-radius: 10px;
+    position: relative;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 1rem;
+    
 }
 
 .pet-name {
@@ -322,25 +372,26 @@ hr {
     font-size: 22px;
 }
 
-.adopt-card:hover {
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-}
 
 .adopt-card img {
-    width: 360px;
-    height: 270px;
+    width:  360px;
+    border-radius: 10px;
+    object-fit: cover;
 }
 
 .pet-info {
-    display: block;
-    display: flex;
-    padding: 1rem 0.4rem;
+    position: absolute;
+    bottom: 4px;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 4));
+    width: 360px;
+    margin-right: 30px;
     text-align: center;
-    border-top: 2px solid #f2f2f2;
-    color: #999999;
-    font-size: 12px;
-    text-transform: uppercase;
-    font-weight: 600;
+    display: flex;
+    height: 100px;
+    align-items: flex-end;
+    padding-bottom: 20px;
+    border-radius: 10px;
+    bottom: 9rem;
 }
 
 .adopt-card #btn {
@@ -348,12 +399,12 @@ hr {
     text-align: center;
     text-decoration: none;
     color: white;
-    border-radius: 0;
+    margin: auto;
 }
 
 .pet-gender,
 .pet-age {
-    text-align: center;
+    color: #fff;
     width: 50%;
 }
 
@@ -381,7 +432,7 @@ hr {
     z-index: 2;
     height: 48px;
     width: 100%;
-    background-color: #ffffff;
+    background-color: #f8f8f8;
     font-size: 15px;
     padding: 15px;
     color: #707070;
@@ -389,7 +440,7 @@ hr {
     -o-transition-duration: 100ms;
     transition-duration: 100ms;
     border: 1px solid #e1e1e1;
-    border-radius: 2px;
+    border-radius: 15px;
 }
 
 .field:focus,
@@ -405,6 +456,10 @@ hr {
     margin-right: 0;
 }
 
+img{
+    border-radius: 10px;
+}
+
 .contact-form {
     width: 100%;
     height: 100%;
@@ -412,6 +467,12 @@ hr {
     font-size: 16px;
     border-radius: 5px;
 }
+
+.contact-form-box{
+    padding: 2rem;
+    border-radius: 10px;
+}
+
 
 .contact-page {
     padding: 0 18px 0 48px;
@@ -453,6 +514,8 @@ hr {
     min-width: 100%;
     padding: 15px;
     font-size: 16px;
+    background-color: #f8f8f8;
+    border-radius: 20px;
 }
 
 .contact-details {
@@ -482,11 +545,27 @@ hr {
 .item h3 {
     font-weight: 600;
     font-size: 17px;
-    margin-bottom: 0.8rem;
+    margin-bottom: 1.6rem;
 }
 
 .item i {
-    margin-right: 0.5rem;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    padding: 15px;
+    border-radius: 50%;
+    color: #d99c00;
+    font-size: 24px;
+    width: 55px;
+    height: 55px;
+    margin-right: 2rem;
+display: flex;
+justify-content: center;
+    
+}
+
+.item h4{
+    font-size: 20px;
+    color: #000;
+    margin-bottom: 7px;
 }
 
 footer {
@@ -711,6 +790,7 @@ footer .links a {
 .bars img,
 .cancel img {
     height: 27px;
+    border-radius: 0;
 }
 
 .cancel img {
@@ -775,14 +855,27 @@ footer .links a {
 .media-section .container {
     padding-top: 10px;
     display: flex;
-    justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
 }
 
 .media-section .media img {
     padding: 5px;
     width: 200px;
+    max-height: 80px;
+}
+
+.media{
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    border-radius: 10px;
+    padding: 1rem;
+    height: 80px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    margin: 10px;
 }
 
 .terms{

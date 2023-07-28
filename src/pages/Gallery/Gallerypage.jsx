@@ -1,12 +1,12 @@
 import { Helmet } from "react-helmet";
-import gallery1 from '../../assets/images/gallery-2.jpg'
-import gallery2 from '../../assets/images/gallery-5.jpg'
-import gallery3 from '../../assets/images/Dogs 78 6.webp'
-import gallery4 from '../../assets/images/image2.jpg'
+import gallery1 from '../../assets/images/gallery-9.jfif'
+import gallery2 from '../../assets/images/home-about.jpg'
+import gallery3 from '../../assets/images/gallery-10.webp'
+import gallery4 from '../../assets/images/gallery-12.jfif'
 import gallery5 from '../../assets/images/puppies.webp'
-import gallery6 from '../../assets/images/shelter-2.webp'
+import gallery6 from '../../assets/images/gallery-14.webp'
 import gallery7 from '../../assets/images/shelter-1.webp'
-import gallery8 from '../../assets/images/Dogs 78.webp'
+import gallery8 from '../../assets/images/gallery-15.jfif'
 
 export default function Gallerypage() {
     return (
@@ -24,6 +24,11 @@ export default function Gallerypage() {
             </div>
             <section className="gallery-section info-section">
                 <div className="container">
+                <div className="section-details">
+          <h2 style={{fontSize:"30px"}}>Memorable Moments</h2>
+          <hr style={{marginBottom:0}}/>
+         
+        </div>
                     <div className="gallery-content">
 
                         <div className="gallery-row">
