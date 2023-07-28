@@ -71,7 +71,7 @@ export default function Aboutpage() {
                         <div className="about-image">
                             <img src={hero} alt="main-about" loading="lazy" />
                         </div>
-                        <div className="about-text" style={{ fontSize: "16px",color:"#616161" }}>
+                        <div className="about-text" style={{ fontSize: "17px",color:"#616161" }}>
                             <p style={{ fontSize: 25, marginBottom: "0.9rem", color: "#000" }}>"A journey of a thousand miles begins with a single step"</p>
                             The eerie silence of the sudden lockdown in March 2020, amplified the
                             cries of hungry stray dogs on the streets of Noida. Our furry friends
@@ -90,7 +90,7 @@ export default function Aboutpage() {
                     {Open &&
                         <>
                             <div className="about-content">
-                                <div className="about-text" style={{ fontSize: "16px",color:"#616161" }}>
+                                <div className="about-text" style={{ fontSize: "17px",color:"#616161" }}>
                                     What began as a modest initiative in 2020 with just 35 dogs under our
                                     wings, has increased exponentially during the lockdown as we
                                     discovered various parts of Noida where animals were starving. Today,
@@ -101,7 +101,7 @@ export default function Aboutpage() {
                                     Turning adversity into an opportunity to do some good saw the
                                     inception of ‘Save A Stray’ on
                                 </div>
-                                <div className="about-text" style={{ fontSize: "16px",color:"#616161" }}>
+                                <div className="about-text" style={{ fontSize: "17px",color:"#616161" }}>
                                     22nd March 2020, with the sole aim of
                                     feeding our furry street friends.<br/>
                                     We have a dedicated and compassionate crew of 8 who help in ensuring
@@ -127,7 +127,7 @@ export default function Aboutpage() {
                 </div>
                 <div className="container">
                     <div className="about-content">
-                        <div className="about-text" style={{ color: "#616161", fontSize: "16px" }}>
+                        <div className="about-text" style={{ color: "#616161", fontSize: "17px" }}>
                             <p style={{ fontSize: 25, marginBottom: "0.9rem", color: "#000" }}>The Life Lived for Others is the one that is Happiest!</p>
                             Vidit Sharma is the founder of Save a Stray Animal welfare centre.
                             It's due to his able guidance, dedication, and commitment, Save a

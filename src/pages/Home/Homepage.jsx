@@ -27,7 +27,7 @@ export default function Homepage() {
     useEffect(() => {
         const getPets = async () => {
             const docSnap = await getDoc(doc(db, "adopt", 'yB810JxrJWZX5EvopsKl'))
-            setPets(docSnap.data().pets.reverse().slice(1))
+            setPets(docSnap.data().pets.reverse().slice(0,2))
             return docSnap
         }
         getPets()
@@ -123,7 +123,7 @@ export default function Homepage() {
                         <div className="about-image">
                         <img src={hero} alt="main-about" loading="lazy" />
                         </div>
-                        <div className="about-text" style={{color:"#616161",fontSize:"16px"}}>
+                        <div className="about-text" style={{color:"#616161",fontSize:"16.5px"}}>
                             <p style={{fontSize:25,marginBottom:"0.9rem",color:"#000"}}>Helping them Who Can't Help themselves Gives the Deep Satisfaction</p>
                             We are an
                             Animal welfare Organisation in Noida and serving Happiness to
