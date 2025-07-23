@@ -23,7 +23,7 @@ export default function Adoptpage() {
     <>
       <Helmet>
         <title>  Adopt a Friend - Save A Stray, Noida</title>
-        <meta name="description" content="We Serve happiness to Stray animals , Save a Stray is a Animal welfare organisation in Noida Sector 116 and serving food to 3000+ dogs and 200+ Cattles in various locations." />
+        <meta name="description" content="Explore our selection of adoptable pets and experience the joy of giving a second chance to a stray animal, regardless of your location. Adopting one of our pets brings happiness to both your life and theirs." />
         <meta name="keywords" content="Save A stray, animal shelter, animal welfare centre, about us,Vidit sharma , save a stray noida" />
       </Helmet>
       <div className="menu-box">
@@ -49,6 +49,7 @@ export default function Adoptpage() {
                 </div>
                <div className="btn-container">
                <a
+               style={{background:"#d19f23",color:"#fff"}}
                   href={`https://api.whatsapp.com/send/?phone=919899600421&text=Hi I Want To Adopt ${pet.name}. Can You Help?`}
                   target="_blank"
                 >

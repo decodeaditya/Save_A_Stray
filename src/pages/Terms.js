@@ -10,7 +10,7 @@ export default function Terms(props) {
 
             <p>Welcome to Save a Stray!</p>
 
-            <p>These terms and conditions outline the rules and regulations for the use of Save a stray's Website, located at www.saveatsray.in.</p>
+            <p>These terms and conditions outline the rules and regulations for the use of Save a stray's Website, located at www.saveastray.in.</p>
 
             <p>By accessing this website we assume you accept these terms and conditions. Do not continue to use Save a Stray if you do not agree to take all of the terms and conditions stated on this page.</p>
 

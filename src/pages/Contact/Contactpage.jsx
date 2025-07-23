@@ -6,7 +6,7 @@ export default function Contactpage() {
     <>
       <Helmet>
         <title>  Contact us - Save A Stray, Noida</title>
-        <meta name="description" content="We Serve happiness to Stray animals , Save a Stray is a Animal welfare organisation in Noida Sector 116 and serving food to 3000+ dogs and 200+ Cattles in various locations." />
+        <meta name="description" content="If you have any queries or doubts, please don't hesitate to get in touch. We are always happy to assist you. Save a Stray is an animal welfare organization located in Noida Sector 116. "/>
         <meta name="keywords" content="Save A stray, animal shelter, animal welfare centre, about us,Vidit sharma , save a stray noida" />
       </Helmet>
       <div className="menu-box">
@@ -30,19 +30,13 @@ export default function Contactpage() {
                 </h3>
                 <h3 style={{ display: "flex", alignItems: "center" }}>
                   <i className="fa fa-phone"></i><div>
-                    <h4>Call Us</h4>+91 98996 00421
-                  </div>
-                </h3>
-                <h3 style={{ display: "flex", alignItems: "center"}}>
-                  <i className="fa fa-paw"></i><div>
-                    <h4>Visit Us</h4>A 329
-                    Sector 46 Noida - 201301
+                    <h4>Call Us</h4><p style={{fontSize:"16px"}}>+91 98996 00421</p><p style={{fontSize:"14px",color:"red"}}>(Not For emergency)</p>
                   </div>
                 </h3>
                 <h3 style={{ display: "flex", alignItems: "center"}}>
                   <i className="fa fa-map-marker-alt"></i><div>
-                    <h4>Kitchen Address</h4>SK 27 D
-                    Sector 116 Noida - 201301
+                    <h4>Address</h4>SK 27 D
+                    Sector 116 Noida, UP, India - 201301
                   </div>
                 </h3>
               </div>

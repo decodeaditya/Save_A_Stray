@@ -6,7 +6,6 @@ export default function Footer() {
 
     const [visible, setVisible] = useState(false)
 
-
     const toggleVisible = () => {
         const scrolled = document.documentElement.scrollTop;
         if (scrolled > 300) {
@@ -25,19 +24,9 @@ export default function Footer() {
 
     window.addEventListener("scroll", toggleVisible)
 
-
     return (
         <>
             <div>
-                <div className="window">
-                    <div className="upper">
-                        <h2>Join the Mission and Create A Impact! </h2>
-                    </div>
-                    <div className="btn-container">
-
-                        <Link to="/donate">Contribute </Link>
-                    </div>
-                </div>
                 <footer>
                     <div className="section-footer">
                         <Link to="/" id="logo">
@@ -56,10 +45,10 @@ export default function Footer() {
                             <i className="fa fa-users" />
                             About Us
                         </Link>
-                        <Link to="/contact">
+                        <Link to="/volunteer">
 
                             <i className="fa fa-link" />
-                            Connect With Us
+                            Volunteer
                         </Link>
                         <Link to="/adopt">
 
@@ -125,8 +114,8 @@ export default function Footer() {
                 </footer>
                 <div className="developer">
                     <div></div>
-                    <div>  Copyright © {new Date().getFullYear()}&nbsp; - Save a Stray | Managed and created by
-                        <Link to="mailto:adityaj02810@gmail.com"> Devcost Tech.</Link></div>
+                    <div>  Copyright © {new Date().getFullYear()}&nbsp; - Save a Stray || Made with ❤️ By
+                        <Link target='_blank' to="https://api.whatsapp.com/send?phone=919044558703&text=Hi%2C%20I%20had seen Save A Stray%20and%20Had%20Some%20Feedback%20Regarding%20it!"> Devcost Tech.</Link></div>
                 </div>
             </div>
             <div class="myBtn" style={{ right: visible ? 0 : '-100vw' }} onClick={scrollToTop}><i className='fa fa-arrow-up' /></div>

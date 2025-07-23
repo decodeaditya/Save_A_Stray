@@ -5,6 +5,10 @@ import donate1 from '../../assets/images/gallery-14.webp'
 import donate2 from '../../assets/images/gallery-19.jfif'
 import donate3 from '../../assets/images/gallery-18.jfif'
 import donate4 from '../../assets/images/gallery-17.jfif'
+import gpay from '../../assets/images/gpay.png'
+import phonepay from '../../assets/images/phonepay.png'
+import paytm from '../../assets/images/paytm.png'
+import upi from '../../assets/images/upi.png'
 
 export default function Donatepage() {
   return (
@@ -80,9 +84,10 @@ export default function Donatepage() {
               <a
                 id="btn"
                 style={{ display: "block", textAlign: "center", margin: 10 }}
+                target="_blank"
                 href="https://pages.razorpay.com/pl_GUaNiAa3KYwFiL/view"
               >
-                Donate by Debit/credit card
+                Donate by Card or Other Methods
               </a>
               <p style={{ fontSize: "12px", color: "#000", textAlign: "center",lineHeight:1 }}>(INDIAN TAX BENEFITS AVAILABLE)</p>
               <div style={{ textAlign: "center", display: "flex", alignItems: "center", justifyContent: "center", marginTop: "0.5rem", marginBottom: "0.5rem" }}>
@@ -96,10 +101,10 @@ export default function Donatepage() {
               <h4 style={{ color: "#000", textAlign: "center" }}>UPI ID:  <text style={{ fontWeight: "bold", color: "#d99c00" }}>Vidit.kaushik11@okIcici</text></h4>
               <h4 style={{ color: "#000", textAlign: "center" }}>Google Pay number: <text style={{ color: "#d99c00" }}>+91 9899600421</text></h4>
               <div style={{ display: "flex", justifyContent: "space-around", margin: "auto", width: "80%" }}>
-                <img src="https://sarvoham.org/wp-content/uploads/2021/12/3-removebg-preview-e1640622497626.png" alt="" width="55px" />
-                <img src="https://sarvoham.org/wp-content/uploads/2021/12/1-removebg-preview-e1640622621499.png" alt="" width="55px" />
-                <img src="https://sarvoham.org/wp-content/uploads/2021/12/2-removebg-preview-e1640622551799.png" alt="" width="55px" />
-                <img src="https://sarvoham.org/wp-content/uploads/2021/12/4-removebg-preview-e1640622417801.png" alt="" width="55px" />
+                <img src={gpay} alt="" width="55px" />
+                <img src={phonepay} alt="" width="55px" />
+                <img src={paytm} alt="" width="55px" />
+                <img src={upi} alt="" width="55px" />
               </div>
             </div>
 

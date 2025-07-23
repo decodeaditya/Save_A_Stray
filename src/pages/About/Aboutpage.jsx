@@ -1,11 +1,13 @@
 import { useState } from "react"
-import hero from '../../assets/images/gallery-11.webp'
+import hero from '../../assets/images/gallery-3.webp'
+import about2 from '../../assets/images/gallery-18.jfif'
+import about3 from '../../assets/images/gallery-17.jfif'
 import Ankush from './AboutImages/Ankush.jpg'
 import Ds from './AboutImages/Dheeraj Sharma.jpeg'
 import Ps from './AboutImages/Pankaj Sharma.jpeg'
 import Ms from './AboutImages/Monty Sharma.jpg'
 import Ks from './AboutImages/Keshav Sharma.jpeg'
-import Ad from './AboutImages/Aditya Kumar.jpg'
+import Ad from './AboutImages/Aditya Kumar.jfif'
 import Vidit from './AboutImages/founderimage.jpeg'
 import { Helmet } from "react-helmet"
 import '../../assets/css/about.css'
@@ -52,7 +54,7 @@ export default function Aboutpage() {
         <>
             <Helmet>
                 <title>  About us - Save A Stray, Noida</title>
-                <meta name="description" content="We Serve happiness to Stray animals , Save a Stray is a Animal welfare organisation in Noida Sector 116 and serving food to 3000+ dogs and 200+ Cattles in various locations." />
+                <meta name="description" content="Save a Stray is an animal welfare organization located near Noida, Uttar Pradesh that feeds and cares for street animals. Through their efforts, they aim to inspire the community to value the lives of all animals." />
                 <meta name="keywords" content="Save A stray, animal shelter, animal welfare centre, about us,Vidit sharma , save a stray noida" />
             </Helmet>
             <div className="menu-box">
@@ -71,7 +73,7 @@ export default function Aboutpage() {
                         <div className="about-image">
                             <img src={hero} alt="main-about" loading="lazy" />
                         </div>
-                        <div className="about-text" style={{ fontSize: "17px",color:"#616161" }}>
+                        <div className="about-text" style={{ fontSize: "17px", color: "#616161" }}>
                             <p style={{ fontSize: 25, marginBottom: "0.9rem", color: "#000" }}>"A journey of a thousand miles begins with a single step"</p>
                             The eerie silence of the sudden lockdown in March 2020, amplified the
                             cries of hungry stray dogs on the streets of Noida. Our furry friends
@@ -89,8 +91,8 @@ export default function Aboutpage() {
                     </div>}
                     {Open &&
                         <>
-                            <div className="about-content">
-                                <div className="about-text" style={{ fontSize: "17px",color:"#616161" }}>
+                            <div className="about-content  phone-reverse">
+                                <div className="about-text" style={{ fontSize: "17px", color: "#616161" }}>
                                     What began as a modest initiative in 2020 with just 35 dogs under our
                                     wings, has increased exponentially during the lockdown as we
                                     discovered various parts of Noida where animals were starving. Today,
@@ -99,18 +101,19 @@ export default function Aboutpage() {
                                     Noida and neighbouring parts of Delhi, for which we cook approximately
                                     1 Lakh meals a month!
                                     Turning adversity into an opportunity to do some good saw the
-                                    inception of ‘Save A Stray’ on
+                                    inception of ‘Save A Stray’ on 22nd March 2020, with the sole aim of feeding our furry street friends.
                                 </div>
-                                <div className="about-text" style={{ fontSize: "17px",color:"#616161" }}>
-                                    22nd March 2020, with the sole aim of
-                                    feeding our furry street friends.<br/>
-                                    We have a dedicated and compassionate crew of 8 who help in ensuring
-                                    that come hail or shine, or even the harshest cold, the little bellies
-                                    of our canine kids are filled everyday! This food is delivered to
-                                    various locations with the help of two vans and two E-rickshaws. We
-                                    believe in feeding them healthy and nutritious food made of rice,
-                                    soya, pulses, seasonal vegetables, eggs, milk and even processed dog
-                                    kibble.
+                                <div className="about-image">
+                                    <img src={about2} alt="main-about" loading="lazy" />
+                                </div>
+                            </div>
+                            <div className="about-content">
+                                <div className="about-image">
+                                    <img src={about3} alt="main-about" loading="lazy" />
+                                </div>
+                                <div className="about-text" style={{ fontSize: "17px", color: "#616161" }}>
+                                    We have a dedicated and compassionate crew who help in ensuring that come hail or shine, or even the harshest cold, the little bellies of our canine kids are filled everyday! This food is delivered to various locations with the help of two vans and two E-rickshaws. We believe in feeding them healthy and
+                                    nutritious food made of rice, soya, pulses, seasonal vegetables, eggs, milk and even processed dog kibble.
                                 </div>
                             </div>
                             <div className="btn-container">
@@ -129,16 +132,14 @@ export default function Aboutpage() {
                     <div className="about-content">
                         <div className="about-text" style={{ color: "#616161", fontSize: "17px" }}>
                             <p style={{ fontSize: 25, marginBottom: "0.9rem", color: "#000" }}>The Life Lived for Others is the one that is Happiest!</p>
-                            Vidit Sharma is the founder of Save a Stray Animal welfare centre.
-                            It's due to his able guidance, dedication, and commitment, Save a
-                            stray has been able to feed more than 3000 animals daily and treating
+                            Vidit Sharma is the founder of Save a Stray.
+                            It's due to his able guidance, dedication, and commitment that we are able to feed more than 3000 animals daily and treating
                             them.
                             <br />
-                            He has been often praised by many dignitaries and is donating his own
-                            50% of salary.
+                            Vidit's selfless work has earned him praise from numerous dignitaries and is donating his own
+                            50% of salary to Save A Stray.
                             <br />
-                            He had been working for Mankind and Humanity Since 2011 and also
-                            worked with NGO named 'Vision4care'
+                            He has been involved in humanitarian work since 2011 and has worked with NGOs such as 'Vision4care.'
                         </div>
                         <div className="about-image">
                             <img src={Vidit} alt="founder" loading="lazy" />
